@@ -1,0 +1,93 @@
+* {
+   box-sizing: border-box;
+   font-weight: normal;
+}
+
+/* declaring global CSS variables */
+:root {
+ --title-color: #8367f4;
+ --text-color: #6d24ff;
+ --bg-color: #e0e0df;
+ --page-margins: 3%;
+ --non-hover-opacity: 40%;
+ --seconds-for-animation: 2s;
+}
+
+
+body{
+  margin: 3% 1% 3% 1%;
+  background-color: var(--bg-color);
+  color: var(--title-color);
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+/* Setting container to flex and width to 80% of view port */
+.mainContainer{
+    display: flex;
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+.tabTitle{
+  /* font-family: 'Sprat'; */
+  font-family: 'Lincoln';
+  writing-mode: vertical-lr;
+  font-size: 7vh;
+  /* prevent line break in title */
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/*Adding background image to each section*/
+.one{
+  background-color: red;
+}
+.two{
+  background-color: pink;
+}
+.three{
+  background-color: yellow;
+}
+.four{
+  background-color: green;
+}
+.five{
+  background-color: blue;
+}
+
+/* properties and transition effect to section  */
+.section{
+    cursor: pointer;
+    flex: 0.2; /* also attends to min flex*/
+    /* margin:4px; */
+    position: relative;
+    transition: all 0.7s ease-out;
+}
+
+/* section with active class will grow flex to 3 times  */
+.section.active{
+    flex: 3;
+}
+
+/* .FontName:focus { */
+
+/* .FontName.LatinFontName, .FontName.HebrewFontName{ */
+
+/* .fontsection:last-child::after { */
+
+/*
+.Banner{
+  will-change: transform;
+  display: flex;
+  text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 4vh;
+  font-variation-settings: "wght" 400, "wdth" 75;
+  margin-bottom: var(--page-margins);
+  margin-top: var(--page-margins);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */

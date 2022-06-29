@@ -1,0 +1,14 @@
+/* font declerations */
+@font-face {
+  font-family: 'Sprat';
+  src: url('../fonts/SpratVariable.woff2') format('woff2-variations');
+  /* font-variation-settings: "wdth" 122, "wght" 40; */
+  font-weight: 40;
+  font-width: 122;
+}
+
+@font-face {
+  font-family: 'Lincoln';
+  src: url('../fonts/LincolnMITRE-LM.woff') format('woff');
+  /* font-variation-settings: "wdth" 122, "wght" 40; */
+}
