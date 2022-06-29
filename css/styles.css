@@ -1,6 +1,7 @@
 * {
    box-sizing: border-box;
    font-weight: normal;
+   cursor: url('../dotcursor.svg'), auto;
 }
 
 /* declaring global CSS variables */
@@ -15,26 +16,27 @@
 
 
 body{
-  margin: 3% 1% 3% 1%;
+  margin: var(--page-margins) 1% var(--page-margins) 1%;
   background-color: var(--bg-color);
   color: var(--title-color);
   height: 100vh;
   overflow: hidden;
+  /* cursor: url('../dotcursor.svg'), auto; */
 }
 
 
 /* Setting container to flex and width to 80% of view port */
 .mainContainer{
     display: flex;
-    /* width: 100%; */
-    /* height: 100%; */
+    /* width: 98%; */
+    height: 94%; /*100-6*/
 }
 
 .tabTitle{
   /* font-family: 'Sprat'; */
   font-family: 'Lincoln';
   writing-mode: vertical-lr;
-  font-size: 7vh;
+  font-size: 6vh;
   /* prevent line break in title */
   white-space: nowrap;
   overflow: hidden;
@@ -69,6 +71,20 @@ body{
 /* section with active class will grow flex to 3 times  */
 .section.active{
     flex: 3;
+    cursor: url('../dotcursor.svg'), auto;
+}
+
+.section:not(.active):hover{
+  background: repeating-linear-gradient(
+    -45deg,
+    /* thin, start */
+    var(--title-color),
+    var(--title-color) 2px,
+    var(--bg-color) 2px,
+    /* thick */
+    var(--bg-color) 10px
+    );
+    cursor: url('../dotcursor.svg'), auto;
 }
 
 /* .FontName:focus { */
