@@ -1,7 +1,7 @@
 * {
    box-sizing: border-box;
    font-weight: normal;
-   cursor: url('../dotcursor.svg'), auto;
+   cursor: url('../assets/dotcursor.svg'), auto;
 }
 
 /* declaring global CSS variables */
@@ -61,7 +61,7 @@ body{
 
 /* properties and transition effect to section  */
 .section{
-    cursor: pointer;
+    /* cursor: pointer; */
     flex: 0.2; /* also attends to min flex*/
     /* margin:4px; */
     position: relative;
@@ -71,7 +71,7 @@ body{
 /* section with active class will grow flex to 3 times  */
 .section.active{
     flex: 3;
-    cursor: url('../dotcursor.svg'), auto;
+    /* cursor: url('../dotcursor.svg'), auto; */
 }
 
 .section:not(.active):hover{
@@ -84,7 +84,7 @@ body{
     /* thick */
     var(--bg-color) 10px
     );
-    cursor: url('../dotcursor.svg'), auto;
+    cursor: url('../assets/dotcursor.svg'), auto;
 }
 
 /* .FontName:focus { */
