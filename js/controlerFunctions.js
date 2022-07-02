@@ -1,26 +1,70 @@
 // Selecting all sections with class of section
 $(document).ready(function () {
   const sections = document.querySelectorAll('.section');
-  console.log(sections);
+  const innerSections = document.querySelectorAll('.tabSection');
+  // console.log(sections);
   // On click event for each section
   sections.forEach((section)=>{
-
     section.addEventListener('click',()=>{
-
-      console.log("click");
+      // console.log("click");
       // remove active class from all another section
       // and add it to the selected section
       sections.forEach((section) => {
-        console.log(section.classList);
+        // console.log(section.classList);
         section.classList.remove('active');
+
+        // section.child().toggle();
       });
       section.classList.add('active');
+
+      // toggle visibility
+      var innerS = section.lastElementChild; // TODO do this by class name/selector
+      // console.log(section.children);
+      innerS.css("display");
+      // innerS.toggle('.hidden');
+      // console.log(innerS.css("display"));
+      // console.log(innerS);
     });
   });
 });
 
 
 
+// toggle sections
+// $('#GFG_UP').text(
+// "Click on button to toggle the DIV Box using Bootstrap.");
+//
+//         function toggler(divId) {
+//             $("#" + divId).toggle();
+//         }
+//
+//         function GFG_Fun() {
+//             toggler('div');
+//             $('#GFG_DOWN').text("DIV Box is toggling.");
+//         }
+
+
+
+//
+// $(document).ready(function () {
+//   const sections = document.querySelectorAll('.section');
+//   console.log(sections);
+//   // On click event for each section
+//   sections.forEach((section)=>{
+//
+//     section.addEventListener('click',()=>{
+//
+//       console.log("click");
+//       // remove active class from all another section
+//       // and add it to the selected section
+//       sections.forEach((section) => {
+//         console.log(section.classList);
+//         section.classList.remove('active');
+//       });
+//       section.classList.add('active');
+//     });
+//   });
+// });
 
 // element.addEventListener("click", function() {
 //   document.getElementById("demo").innerHTML = "Hello World";

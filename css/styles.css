@@ -61,6 +61,8 @@ body{
 
 /* properties and transition effect to section  */
 .section{
+    display: flex;
+    flex-direction: row;
     /* cursor: pointer; */
     flex: 0.2; /* also attends to min flex*/
     /* margin:4px; */
@@ -84,7 +86,21 @@ body{
     /* thick */
     var(--bg-color) 10px
     );
-    cursor: url('../assets/dotcursor.svg'), auto;
+    /* cursor: url('../assets/dotcursor.svg'), auto; */
+}
+
+.tabSection{
+  /* debug */
+  /* display: none; */
+  background: violet;
+  height: 100px;
+  width: 5%;
+  margin: 0 auto;
+  color: white;
+}
+
+.section:not(.active)>.tabSection{
+  display: none;
 }
 
 /* .FontName:focus { */
