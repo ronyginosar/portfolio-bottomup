@@ -18,9 +18,9 @@ $(document).ready(function () {
       section.classList.add('active');
 
       // toggle visibility
-      var innerS = section.lastElementChild; // TODO do this by class name/selector
+      // var innerS = section.lastElementChild; // TODO do this by class name/selector
       // console.log(section.children);
-      innerS.css("display");
+      // innerS.css("display");
       // innerS.toggle('.hidden');
       // console.log(innerS.css("display"));
       // console.log(innerS);

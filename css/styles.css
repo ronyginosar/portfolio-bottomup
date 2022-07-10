@@ -56,7 +56,7 @@ body{
   background-color: green;
 }
 .five{
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 /* properties and transition effect to section  */
@@ -73,9 +73,9 @@ body{
 /* section with active class will grow flex to 3 times  */
 .section.active{
     flex: 3;
-    /* cursor: url('../dotcursor.svg'), auto; */
 }
 
+/* diagonal lines on hover over tab */
 .section:not(.active):hover{
   background: repeating-linear-gradient(
     -45deg,
@@ -86,40 +86,25 @@ body{
     /* thick */
     var(--bg-color) 10px
     );
-    /* cursor: url('../assets/dotcursor.svg'), auto; */
 }
 
 .tabSection{
-  /* debug */
-  /* display: none; */
-  background: violet;
-  height: 100px;
-  width: 5%;
+  display: flex;
+  flex-direction: column;
+  /* background: violet; */
   margin: 0 auto;
-  color: white;
+  font-family: 'Sprat';
+  font-variation-settings: "wdth" 122, "wght" 40;
+  overflow: auto;
 }
 
 .section:not(.active)>.tabSection{
+  /* hide section inner tab when section isn't active */
   display: none;
 }
 
-/* .FontName:focus { */
+.infoElement{
+  width: 45vw;
+  font-size: 2.5vh;
 
-/* .FontName.LatinFontName, .FontName.HebrewFontName{ */
-
-/* .fontsection:last-child::after { */
-
-/*
-.Banner{
-  will-change: transform;
-  display: flex;
-  text-overflow: clip;
-  white-space: nowrap;
-  overflow: hidden;
-  font-size: 4vh;
-  font-variation-settings: "wght" 400, "wdth" 75;
-  margin-bottom: var(--page-margins);
-  margin-top: var(--page-margins);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
+}

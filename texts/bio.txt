@@ -1,0 +1,9 @@
+I am a designer and algorithm engineer based in Tel Aviv.
+I specialize in typography, creating intersections between art and code, both in practice and in research.
+<br/>
+<br/>
+I hold a M.Sc. and B.Sc. in Computer Science from the The Hebrew University, specializing in computer vision and
+human–computer interaction, as well as a B.Des. in Visual Communications from the The Bezalel Academy of Arts and Design.
+<br/>
+<br/>
+My main focus is on Hebrew typographic creative coding incorporated with Machine Learning. I am currently a Computer Vision algorithm engineer at Samsung Research Center creating future mobile cameras.
