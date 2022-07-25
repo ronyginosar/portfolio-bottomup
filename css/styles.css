@@ -44,16 +44,16 @@ body{
 
 /*Adding background image to each section*/
 .one{
-  background-color: red;
+  /* background-color: red; */
 }
 .two{
-  background-color: pink;
+  /* background-color: pink; */
 }
 .three{
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 .four{
-  background-color: green;
+  /* background-color: green; */
 }
 .five{
   /* background-color: blue; */
@@ -103,8 +103,45 @@ body{
   display: none;
 }
 
-.infoElement{
+#bio{
   width: 45vw;
   font-size: 2.5vh;
-
 }
+
+#bio_links{
+  font-family: 'Lincoln';
+  font-size: 5vh;
+  width: 45vw;
+  /* font-size: 2.5vh; */
+  text-decoration: none;
+}
+
+/* unvisited link */
+#bio_links a{
+  text-decoration: none;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  color: var(--title-color);
+  /* transition: color .3s ease-in-out, box-shadow .3s ease-in-out */
+}
+
+/* mouse over link */
+#bio_links a:hover {
+  text-decoration: underline;
+
+  /* box-shadow: inset 500px 0 0 0.09px var(--title-color);
+  color: var(--bg-color);
+  color: var(--title-color);
+  -webkit-text-stroke: 1.5px var(--bg-color); */
+
+  color: var(--bg-color);
+  -webkit-text-stroke: 1.5px var(--title-color);
+}
+
+/* selected link */
+/* #bio_links a:active {
+} */
+
+/* visited link */
+/* #bio_links a:visited {
+} */
