@@ -1,0 +1,24 @@
+This website is written as an opensource code <a href="https://www.github.com/ronyginosar" target="_blank"> link </a>
+<br/>
+Fonts in use from Primary Foundry
+Library are Open Font License
+<br/>
+<br/>
+Lincoln by David Bennewith
+<br/>
+<br/>
+Sprat by Ethan Nakache
+<br/>
+<br/>
+© RONY GINOSAR 2022
+<br/>
+<br/>
+<br/>
+primary-foundry.com/library/
+
+
+Lincoln/MITRE fonts are studies of
+the typographic system designed by
+MIT Lincoln Laboratory for use in
+various displays on the early warning
+air defense computer network SAGE

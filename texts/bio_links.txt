@@ -1,11 +1,11 @@
-<a href="https://www.linkedin.com/in/rony-ginosar-a9957770/"> LInkedin </a>
+<a href="https://www.linkedin.com/in/rony-ginosar-a9957770/" target="_blank"> LInkedin </a>
 <br/>
-<a href="https://www.instagram.com/ronydinosaur/"> instagram </a>
+<a href="https://www.instagram.com/ronydinosaur/" target="_blank"> instagram </a>
 <br/>
-<a href="https://www.github.com/ronyginosar"> github </a>
+<a href="https://www.github.com/ronyginosar" target="_blank"> github </a>
 <br/>
-<a href="mailto:rony.ginosar@gmail.com"> emaIl </a>
+<a href="mailto:rony.ginosar@gmail.com" target="_blank"> emaIl </a>
 <br/>
-<a href="https://www.youtube.com/user/ronyginosar/videos"> Youtube </a>
+<a href="https://www.youtube.com/user/ronyginosar/videos" target="_blank"> Youtube </a>
 <br/>
-<a href="https://www.behance.net/ronyginosar"> behance </a>
+<a href="https://www.behance.net/ronyginosar" target="_blank"> behance </a>

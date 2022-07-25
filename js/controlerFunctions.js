@@ -10,20 +10,9 @@ $(document).ready(function () {
       // remove active class from all another section
       // and add it to the selected section
       sections.forEach((section) => {
-        // console.log(section.classList);
         section.classList.remove('active');
-
-        // section.child().toggle();
       });
       section.classList.add('active');
-
-      // toggle visibility
-      // var innerS = section.lastElementChild; // TODO do this by class name/selector
-      // console.log(section.children);
-      // innerS.css("display");
-      // innerS.toggle('.hidden');
-      // console.log(innerS.css("display"));
-      // console.log(innerS);
     });
   });
 });
