@@ -159,4 +159,22 @@ h3 {
 }
 
 #bio_colophon{
+  display: flex;
+  flex-direction: column;
+  width: 31vw;
+}
+
+.bio_colophon_main{
+  display: inline;
+}
+
+.bio_colophon_sub{
+  align-self: flex-end;
+  /* TODO find a better way than negative margin / find overflow */
+  margin-right: -20vw;
+  width: 27vw;
+  padding-bottom: 4vh;
+  margin-top: 0;
+  font-size: 1.6vh;
+  line-height: 1.3em;
 }

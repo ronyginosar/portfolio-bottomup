@@ -1,24 +1,19 @@
-This website is written as an opensource code <a href="https://www.github.com/ronyginosar" target="_blank"> link </a>
-<br/>
-Fonts in use from Primary Foundry
-Library are Open Font License
-<br/>
-<br/>
-Lincoln by David Bennewith
-<br/>
-<br/>
-Sprat by Ethan Nakache
-<br/>
-<br/>
-© RONY GINOSAR 2022
-<br/>
-<br/>
-<br/>
-primary-foundry.com/library/
-
-
-Lincoln/MITRE fonts are studies of
-the typographic system designed by
-MIT Lincoln Laboratory for use in
-various displays on the early warning
-air defense computer network SAGE
+<div class="bio_colophon_main">This website is written as an opensource code</div>
+  <a class="bio_colophon_sub" href="https://www.github.com/ronyginosar" target="_blank"> link </a>
+<div class="bio_colophon_main">
+  Fonts in use from Primary Foundry Library are Open Font License
+</div>
+  <a class="bio_colophon_sub" href="https://primary-foundry.com/library/" target="_blank"> primary-foundry.com/library </a>
+<div class="bio_colophon_main">Lincoln by
+    <a href="https://colophon.info/" target="_blank">David Bennewith</a>
+</div>
+<div class="bio_colophon_sub">
+  Lincoln/MITRE fonts are studies of the typographic system designed by
+  MIT Lincoln Laboratory for use in various displays on the early warning
+  air defense computer network SAGE
+</div>
+<div class="bio_colophon_main">Sprat by
+  <a href="https://www.instagram.com/nkh.otf/" target="_blank">Ethan Nakache</a>
+</div>
+<div class="bio_colophon_sub">hi</div>
+<div class="bio_colophon_main">© RONY GINOSAR 2022</div>
