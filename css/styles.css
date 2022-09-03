@@ -73,6 +73,8 @@ a {
 /* section with active class will grow flex to 3 times  */
 .section.active{
     flex: 3;
+    width: inherit;
+    opacity: 1;
 }
 
 /* diagonal lines on hover over tab */
@@ -101,7 +103,9 @@ a {
 
 .section:not(.active)>.tabSection{
   /* hide section inner tab when section isn't active */
-  display: none;
+  /* display: none; */
+  width: 0;
+  opacity: 0;
 }
 
 .bioclass{
